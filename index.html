@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
+
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <div class="container">
@@ -12,19 +16,25 @@
             <img src="./imagens/Google_Contacts_logo.png" alt="Imagen de contado do google">
             <h1>Agenda de contatos</h1>
         </header>
-        <form >
-            <input type="text" required placeholder="Nome do Contato"/>
+        <form>
+            <input type="text" required placeholder="Nome do contato"/>
             <input type="number" required placeholder="Número do contato"/>
             <button type="submit">Adicionar+</button>
         </form>
-        <tr>
-            <th>Nome do contato</th>
-            <th>Número do contato</th>
-        </tr>
-        <tbody>
-            <td>Luis Filipe</td>
-            <td>19 99999-4587</td>
-        </tbody>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Número do contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Luis Filipe</td>
+                    <td>19 99999-4587</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
